@@ -1,0 +1,300 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro';
+}
+
+/* #536a7f
+#f5f7fa
+#1abb9c
+*/
+
+/* --------------------Social Links--------------------- */
+#socialLinks {
+    background-color: #f5f7fa;
+    font-size: small;
+    padding: 10px;
+    color: #49637a;
+}
+#socialLinks i{
+    margin-left: 6px;
+}
+.contact{
+    margin-left: 20%;
+    margin-right: 30%;
+}
+/* -----------------------Nav Bar--------------------- */
+#nav{
+    padding: 20px;
+    color: #49637a;
+}
+#nav span.logo{
+    margin-left: 20%;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+#nav span.navItems{
+    margin-left: 6%;
+}
+#nav a{
+    text-decoration: none;
+    font-size: 11px;
+    margin-left: 10px;
+    font-weight: 900;
+    color: #4d6174;
+}
+#nav span>i{
+    margin-left: 10%;
+}
+/* -----------------------Header--------------------- */
+#header{
+    background-image: url("images/headerBg.jpg");
+    background-size: cover;
+    /* background-color: rgba(32, 44, 85, 0.2); */
+
+    height: 630px;
+    text-align: center;
+    filter: grayscale(60%);
+    
+}
+
+#header h1{
+    font-size: 56px;
+    color: #fff;
+    margin: 0;
+    padding-top: 220px;
+}
+
+#header p{
+    margin-left:25% ;
+    width: 50%;
+    color: #fff;
+    font-size: 17px;
+}
+
+#header button{
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #1abb9c;
+    color: #fff;
+}
+/* -----------------------qualities--------------------- */
+#qualities{
+    color: #49637a;
+}
+#qualities h1{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 30px;
+
+}
+#qualities h1+p{
+text-align: center;
+padding-left: 30%;
+width: 40%;
+margin-bottom: 4%;
+}
+
+#qualities div{
+    margin-left: 18%;
+}
+#qualities div div{
+    width: 25%;
+    margin: 0;
+    margin-right: 25px;
+    float: left;
+    margin-bottom: 6%;
+    text-align: justify;
+
+    
+}
+#qualities div div i{
+    font-size: 50px;
+    color:  rgba(31, 231, 181, 0.767);
+    float: left;
+}
+
+#qualities div div h3{
+    padding-left: 25%;
+    margin-top: 0;
+}
+
+#qualities div div p{
+    font-size: 12px;
+    padding-left: 25%;
+}/* -----------------------ourWork--------------------- */
+#ourWork {
+    text-align: center;
+    background-color: #f2f5f7;
+    height: 800px;
+    color: #49637a;
+}
+#ourWork h1{
+ font-size: 33px;
+ padding-top: 6%;
+}
+#ourWork div{
+    margin-left: 20%;
+    margin-top: 2%;;
+}
+#ourWork div div{
+    width: 35%;
+    height: 10%;
+    float: left;
+    margin-left: 0;
+    background-color: #fff;
+}
+
+#ourWork div div+div{
+    margin-left: 3%;
+}
+#ourWork div div p{ 
+    font-size: 10px;
+    padding-bottom: 10px;
+}
+#ourWork div div h4{ 
+    margin-bottom: 0;
+}
+
+/* still there else */
+.flexourwork {
+    padding-top: 4%;
+    display: flex;
+
+}
+
+.flexourwork > img{
+    width: 16%;
+    margin-right: 3%;
+}
+
+
+
+
+
+/* ----------------------Get In Touch----------------------------- */
+#getInTouch{
+    color: #49637a;
+    text-align: center;
+    height: 380px;
+}
+#getInTouch h1{
+    padding-top: 5%;
+    font-size: 32px;
+}
+#getInTouch p{
+    width: 35%;
+    margin-left: 33%;
+}
+
+#getInTouch button{
+    margin-top: 20px;
+    padding: 15px 25px;
+    background-color: #1abb9c;
+    color: #fff;
+}
+
+
+/* ----------------------Footer----------------------------- */
+
+#footer{
+    color: #a3b1a7;
+}
+
+
+.footerFlexContainer{
+    display: flex;
+    background-color:#2f4052 ;
+    justify-content: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    flex-wrap: wrap;
+    
+}
+.footerFlexContainer > div{
+    
+    width: 17%;
+    margin: 10px;
+
+}
+
+
+.imageFlexContainer {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.imageFlexContainer > img{
+    margin: 3px;
+    width: 45%;
+}
+.footerFlexContainer h3 {
+    color: #fff;
+}
+.footerFlexContainer h1 {
+    color: #fff;
+    font-size: 42px;
+}
+
+.footerFlexContainer a{
+    color: #a3b1a7;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+form.subscribe {
+    background-color:#53667a;
+    padding:2%;
+}
+
+
+form.subscribe input[type=text] {
+    padding: 3%;
+    width: 43%;
+    background-color:#53667a;
+    border: 0px;
+}
+form.subscribe button {
+    padding: 3%;
+
+}
+
+/* form.example button:hover {
+  background: #0b7dda;
+} */
+
+
+
+.lastFooter {
+    background-color: #283645;
+    padding: 2% 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.lastFooter .copy{
+    flex-basis: 20%;
+    margin-left: 13%;
+    
+}
+
+.lastFooter .links{
+    flex-basis:32%;
+    margin-left: 30%;
+    
+}
+
+.lastFooter a{
+    color: #a3b1a7;
+    text-decoration: none;
+    
+}
+.lastFooter .top{
+    padding: 1%;
+    background-color: #2f4052;
+}
